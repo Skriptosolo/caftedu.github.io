@@ -29,7 +29,7 @@ aside {
 /* navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1.4rem 7%;
   background-color: rgba(29, 50, 88, 0.8);
