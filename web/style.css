@@ -29,7 +29,7 @@ aside {
 /* navbar */
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
   background-color: rgba(29, 50, 88, 0.8);
@@ -41,6 +41,8 @@ aside {
   /* z-index: 9999; */
 }
 .navbar .navbar-logo {
+  display: flex;
+  justify-content: center;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
