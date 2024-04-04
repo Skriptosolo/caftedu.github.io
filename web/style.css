@@ -195,7 +195,7 @@ label {
   top: 0;
   width: 280px;
   height: 100%;
-  background-color: #220b72;
+  background-color: rgba(29, 50, 88, 0.9);
   overflow-y: auto;
   overflow-x: hidden;
   transition: left 0.3s ease;
