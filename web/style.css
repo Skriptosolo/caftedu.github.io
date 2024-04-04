@@ -250,21 +250,30 @@ label {
   transform: scale(1.1);
 }
 
-.credit {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 20px 0;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
+footer {
+  background-color: rgba(3, 15, 37, 0.9);
+  text-align: center;
+
+  margin-top: 7rem;
+}
+footer p {
+  text-align: center;
+  padding: 5px;
+}
+footer a {
+  color: var(--primary);
+
+  text-decoration: none;
 }
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   html {
     font-size: 80%;
   }
   img {
     width: 300px;
+  }
+  .credit {
+    font-size: 1rem;
   }
 }
