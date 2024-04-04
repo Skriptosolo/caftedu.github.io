@@ -249,6 +249,11 @@ label {
 .menu-toggle-btn:hover {
   transform: scale(1.1);
 }
+
+.credit {
+  background-color: rgba(29, 50, 88, 0.9);
+  margin-top: 10px;
+}
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
